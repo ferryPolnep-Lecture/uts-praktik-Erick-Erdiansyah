@@ -9,20 +9,24 @@
     <form action="create_krs.php" method="post">
         <label for="name">Nama Mahasiswa: </label><br>
         <input type="text" name="name"><br>
+
         <label for="nim">Nomor Induk Mahasiswa: </label><br>
         <input type="text" name="nim"><br>
+
         <label for="kelas">Kelas: </label><br>
         <input type="radio" name="kelas" value="5A">Kelas 5A<br>
         <input type="radio" name="kelas" value="5B">Kelas 5B<br>
         <input type="radio" name="kelas" value="5C">Kelas 5C<br>
         <input type="radio" name="kelas" value="5D">Kelas 5D<br>
         <input type="radio" name="kelas" value="5E">Kelas 5E<br>
+
         <label for="makul">Mata Kuliah Pilihan: </label><br>
         <input type="checkbox" name="makul[]" value="WebApp">Web Application Development<br>
         <input type="checkbox" name="makul[]" value="MobileApp">Mobile Application Development<br>
         <input type="checkbox" name="makul[]" value="UI/UX">UI/UX Design<br>
         <input type="checkbox" name="makul[]" value="SoftEng">Software Engineering<br>
         <input type="checkbox" name="makul[]" value="DataEng">Data Engineering<br><br>
+
         <input type="submit" value="Simpan KRS">
     </form>
 </body>
