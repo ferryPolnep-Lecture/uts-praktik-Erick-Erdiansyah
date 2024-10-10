@@ -9,7 +9,13 @@
 
   require 'koneksi.php';
 
-  // Fetch the student data by ID
+
+  // hello world
+  // my name is erick
+  // and this and that
+  // hehe
+
+
   $id = $_GET['id'];
   $sql = "SELECT m.id, m.nama, m.nim, k.kelas, GROUP_CONCAT(ma.makul SEPARATOR ', ') AS makul 
   FROM mahasiswa m
