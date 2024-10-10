@@ -20,7 +20,7 @@ $stmt = $conn->prepare($sql);
 $stmt->bind_param("i", $id);
 
 if ($stmt->execute()) {
-    header("Location: read.php");
+    header("Location: index.php");
 } else {
     echo "Error: {$stmt->error}";
 }

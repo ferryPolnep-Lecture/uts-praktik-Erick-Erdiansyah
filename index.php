@@ -11,6 +11,7 @@ $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
   ?>
+    <h1>ERICK ERDIANSYAH 3202216014</h1>
   <div style="margin-bottom: 1rem;">
     <a href="form_buat_krs.html" style="margin-right: 1rem;">Tambah Data Baru</a>
     <a href="update_form.php">Ubah Data</a>
@@ -43,6 +44,7 @@ if ($result->num_rows > 0) {
     }
 } else {
   ?>
+  <h1>ERICK ERDIANSYAH 3202216014</h1>
     <div style="margin-bottom: 1rem;">
       <a href="form_buat_krs.html" style="margin-right: 1rem;">Tambah Data Baru</a>
       <a href="update_form.php">Ubah Data</a>

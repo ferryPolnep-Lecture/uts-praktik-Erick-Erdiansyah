@@ -22,7 +22,7 @@ if ($stmt->execute() === TRUE) {
         $conn->query("INSERT INTO makul (mahasiswa_id, makul) VALUES ($id, '$item')");
       }
     }
-    header("Location: read.php");
+    header("Location: index.php");
   } else {
     error_log("Error updating kelas: {$stmtKelas->error}");
   }
